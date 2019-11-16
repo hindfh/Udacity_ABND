@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/coffeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:src="@drawable/espresso"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SP CoffeeShop"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="40sp"
+        android:background="#e6ccb3"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:paddingLeft="4dp"
+        android:src="@android:drawable/ic_menu_call"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:text="0560040099"
+        android:autoLink="phone"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:paddingLeft="4dp"
+        android:src="@android:drawable/ic_lock_idle_alarm"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="12dp"
+        android:text="10AM - 9PM"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:paddingLeft="4dp"
+        android:src="@android:drawable/sym_action_email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="12dp"
+        android:text="SPCoffee@gmail.com"
+        android:autoLink="email"/>
+
+</LinearLayout>

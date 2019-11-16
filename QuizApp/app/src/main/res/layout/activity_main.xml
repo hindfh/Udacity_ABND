@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="18dp"
+                android:text="Enter your Name:"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/name_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:hint="Name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:paddingLeft="8dp"
+                android:paddingTop="18dp"
+                android:text="What is your favorite fruit?"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/fav_fruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:hint="banana" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp"
+            android:text="what is My color?"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/apple" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/appleRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/appleRed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="AppleRadioButtonClicked"
+                    android:text="Red" />
+
+                <RadioButton
+                    android:id="@+id/appleGreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="AppleRadioButtonClicked"
+                    android:text="Green" />
+
+                <RadioButton
+                    android:id="@+id/appleBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="AppleRadioButtonClicked"
+                    android:text="Blue" />
+
+                <RadioButton
+                    android:id="@+id/appleYellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="AppleRadioButtonClicked"
+                    android:text="Yellow" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp"
+            android:text="what is My color?"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/grape1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/grapeRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/grapeRed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="grapeRadioButtonClicked"
+                    android:text="Red" />
+
+                <RadioButton
+                    android:id="@+id/grapeGreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="grapeRadioButtonClicked"
+                    android:text="Green" />
+
+                <RadioButton
+                    android:id="@+id/grapeBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="grapeRadioButtonClicked"
+                    android:text="Blue" />
+
+                <RadioButton
+                    android:id="@+id/grapePurole"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="grapeRadioButtonClicked"
+                    android:text="Purple" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp"
+            android:text="Select only fruits: "
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkboxApple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple" />
+
+            <CheckBox
+                android:id="@+id/checkboxOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange" />
+
+            <CheckBox
+                android:id="@+id/checkboxPotatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potatos" />
+
+            <CheckBox
+                android:id="@+id/checkboxCarrots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrots" />
+
+            <CheckBox
+                android:id="@+id/checkboxBerry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berry" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Your result"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/resutl_summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="press submit to see your result"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:onClick="submitResult"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>

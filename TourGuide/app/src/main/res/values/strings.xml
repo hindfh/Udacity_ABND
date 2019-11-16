@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <!-- Category name for Holy places -->
+    <string name="category_holy_places">Holy Places</string>
+
+    <!-- place name for Holy mosque -->
+    <string name="holy_mousqe">The Great Mousqe Of Makkah</string>
+
+    <!-- the Holy mosque description -->
+    <string name="holy_mousqe_desc">It is the largest mosque in the world</string>
+
+    <!-- place name for Arafa -->
+    <string name="arafa">Mount Arafa</string>
+
+    <!-- the Arafa description -->
+    <string name="arafa_desc">it is also known as the Mount of Mercy (Jabal ar-Rahmah)</string>
+
+    <!-- place name for Mina -->
+    <string name="mina">Mina</string>
+
+    <!-- the Mina description -->
+    <string name="mina_desc">it is also known as the Tent City</string>
+
+    <!-- place name for muzdalifah -->
+    <string name="muzdalifah">Muzdalifah</string>
+
+    <!-- the muzdalifah description -->
+    <string name="muzdalifah_desc">it is where pilgrims stay after Araha day</string>
+
+    <!-- place name for al noor mountain -->
+    <string name="noor_mountain">Al Noor Mountain</string>
+
+    <!-- noor mountain description -->
+    <string name="noor_desc">The mountain houses the famed Ghar Hira or Hira cave.</string>
+
+    <!-- Category name for Shopping Places -->
+    <string name="category_shopping_places">Shopping Places</string>
+
+    <!-- place name for Makkah mall -->
+    <string name="makkah_mall">Makkah Mall</string>
+
+    <!-- Makkah Mall description -->
+    <string name="makkah_mall_desc">Address: South Azizia\n8:00 am - 1:00 am</string>
+
+    <!-- place name for hijaz_mall -->
+    <string name="hijaz_mall">Al Hijaz Mall</string>
+
+    <!--  hijaz_mall description -->
+    <string name="hijaz_mall_desc">Address: Alnuzha\n8:00 am - 1:00 am</string>
+
+    <!-- place name for diafa_mall -->
+    <string name="diafa_mall">Al Diafa Mall</string>
+
+    <!--  diafa_mall description -->
+    <string name="diafa_mall_desc">Address: Alzaher\n8:00 am - 11:00 pm</string>
+
+    <!-- place name for azizya mall -->
+    <string name="azizia_mall">Souq Al Aziziah</string>
+
+    <!-- azizya mall description-->
+    <string name="azizya_mall_desc">Address: Alaziziah\n9:00 am - 12:00 am</string>
+
+    <!-- place name for abraj al bait -->
+    <string name="abraj_mall">Abraj Al_Bait</string>
+
+    <!-- abraj mall description-->
+    <string name="abraj_mall_desc">Address: Ajiad\n9:00 am - 12:00 am</string>
+
+    <!-- Category name for the food places-->
+    <string name="category_food_places">Food PLaces</string>
+
+    <!-- place name for the Baik restaurant -->
+    <string name="al_baik">Al Baik</string>
+
+    <!-- opening time for al baik-->
+    <string name="baik_time">Fast food restaurant\n11:00 am - 2:00 am</string>
+
+    <!-- place name for the shobak restaurant -->
+    <string name="shobak">Shobak Pie</string>
+
+    <!-- opening time for al shobak-->
+    <string name="shobak_time">Pies restaurant\n7:00 am - 2:00 am</string>
+
+    <!-- place name for the Tazij restaurant -->
+    <string name="al_tazij">Al Tazij</string>
+
+    <!-- opening time for al Tazij-->
+    <string name="tazij_time">Fast food restaurant\n12: pm - 11:30 pm</string>
+
+    <!-- place name for the burger restaurant -->
+    <string name="lokmah">Lokmah laziza</string>
+
+    <!-- opening time for burger restaurant-->
+    <string name="lokma_time">Burger restaurant\n11:00 am - 2:00 am</string>
+
+    <!-- place name for the burger restaurant -->
+    <string name="root">root 66</string>
+
+    <!-- opening time for root-->
+    <string name="root_time">Burger restaurant\n6:30 am - 1:00 am</string>
+
+    <!-- Category name for Activities-->
+    <string name="category_activities">Activities</string>
+
+    <!-- visit The Kiswa Factory Activity -->
+    <string name="kiswa_factory">visit The Kiswa Factory</string>
+
+    <!-- Kiswa Factory description-->
+    <string name="kiswa_factory_desc">9:00 am - 8:00 pm</string>
+
+    <!-- visit annabi museum -->
+    <string name="annabi_museum">visit Assalamu Alaika Ayyuha Annabi Museum</string>
+
+    <!-- annabi museum description-->
+    <string name="annabi_museum_desc">9:00 am - 8:00 pm</string>
+
+    <!-- hosainiah park -->
+    <string name="hosainiah_park">a nice walk in Hosainiah park</string>
+
+    <!-- hosainiah park description-->
+    <string name="hosainiah_park_desc">24/7</string>
+
+    <!-- Taif Chairlifts -->
+    <string name="taif_Chairlifts">Gitting on Taif Chairlifts</string>
+
+    <!-- Taif Chairlifts description-->
+    <string name="taif_Chairlifts_desc">9:00 am - 8:30 pm</string>
+
+    <!-- visit aldorrah -->
+    <string name="aldorrah">"visit Aldorrah Theme Park"</string>
+
+    <!-- aldorrah description-->
+    <string name="aldorrah_desc">11:00 am - 2:00 am</string>
+
+    <!-- visit jeddah -->
+    <string name="jeddah">"visit Jeddah city"</string>
+
+    <!-- jeddah description-->
+    <string name="jeddah_desc">it is a Coastal City next to Makkah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

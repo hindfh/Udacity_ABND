@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_preference1Defult"
+        android:key="@string/settings_preference1_label"
+        android:title="@string/settings_preference1title" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_preference2Defult"
+        android:entries="@array/settings_preference2entries"
+        android:entryValues="@array/settings_preference2entries_values"
+        android:key="@string/settings_preference2_label"
+        android:title="@string/settings_preference2title" />
+
+</PreferenceScreen>

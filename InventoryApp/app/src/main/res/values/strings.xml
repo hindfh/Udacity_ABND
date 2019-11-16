@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Toast message in editor when new inventory has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_successful">inventory saved</string>
+
+    <!-- Toast message in editor when new inventory has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_failed">Error with saving pet</string>
+
+    <!-- Title text for the empty view, which describes the empty product house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a product lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit an existing pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+</resources>
